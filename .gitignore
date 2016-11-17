@@ -26,6 +26,7 @@ RUNNING_PID
 generated.keystore
 generated.truststore
 *.log
+.sbtserver
 
 # Scala-IDE specific
 .scala_dependencies
