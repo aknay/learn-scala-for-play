@@ -1,0 +1,9 @@
+@(products: List[Product])(implicit flash: Flash, lang: Lang, messages: Messages)
+@main(Messages("products.list")) {
+<dl class = "products">
+    @for(product <- products) {
+    <dt>@product.name</dt>
+    <dd>@product.description</dd>
+    }
+</dl>
+}
